@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `#__oseipc_ips` (
+  `id` int(20) NOT NULL AUTO_INCREMENT,
+  `acl_id` int(11) NOT NULL,
+  `ip` varchar(40) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

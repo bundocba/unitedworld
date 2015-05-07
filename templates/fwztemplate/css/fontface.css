@@ -1,0 +1,2 @@
+charset "UTF-8";
+@font-face {    font-family: 'gothic';    src: url('fonts/gothic.eot');    src: url('fonts/gothic.eot?#iefix') format('embedded-opentype'),         url('fonts/gothic.woff') format('woff'),         url('fonts/gothic.ttf') format('truetype'),         url('fonts/gothic.svg#ar_cenaregular') format('svg');    font-weight: normal;    font-style: normal;}

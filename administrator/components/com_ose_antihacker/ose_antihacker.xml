@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>OSE_ANTIHACKER</name>
+    <creationDate>01-Jul-2012</creationDate>
+    <description>An Open Source Anti-Hacker System.</description>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <author>Open Source Excellence</author>
+    <authoremail>info@opensource-excellence.com</authoremail>
+    <authorurl>http://www.opensource-excellence.com</authorurl>
+    <copyright>Copyright (C) 2008-2011 Open Source Excellence. All rights reserved.</copyright>
+	<version>5.3.0</version>
+	<installfile>install.ose_antihacker.php</installfile>
+	<scriptfile>install.ose_antihackerj3.php</scriptfile>
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_ose_antihacker/favicon.ico">OSE Anti Hacker</menu>
+	 	<files folder="admin">
+		<filename>ose_antihacker.php</filename>
+		<filename>define.php</filename>
+		<filename>favicon.ico</filename>
+		<folder>assets</folder>
+		<folder>helpers</folder>
+		<folder>language</folder>
+		<filename>installer.helper.php</filename>
+		<filename>installer.template.php</filename>
+		<filename>cpuATH.zip</filename>
+		<filename>com_cpu_admin.zip</filename>
+		<filename>com_cpu_site.zip</filename>
+		<filename>admin.zip</filename>
+		</files>
+	</administration>
+</extension>

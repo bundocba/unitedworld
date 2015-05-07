@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="inserthtml" method="upgrade">
+	<name>Inserthtml</name>
+	<version>2.1</version>
+	<creationDate>Oct2012</creationDate>
+	<author>Marijn Haverbeke / The JoomlaCK Team</author>
+	<authorUrl>Email: marijnh@gmail.com / www.joomlackeditor.com</authorUrl>
+	<license>GNU/GPLv2</license>
+	<description>Insert Html Code Plugin 2.1</description>
+	<languages>
+	</languages>
+	<icon>html_add.png</icon>
+	<files>	
+	<filename>html_add.png</filename>
+	<filename>plugin.js</filename>
+	<filename>index.html</filename>
+	<folder>dialogs</folder>
+	<folder>lang</folder>
+	<folder>js</folder>
+	<folder>css</folder>
+    </files>
+	<params>
+		<param name="dialogtitle" type="text" default="Insert Html Code" label="Dialog Title" description="The Title shown in the dialog for this plugin" />
+		<param name="height" type="text" default="220" label="Dialog height" description="The height of dialog" />
+		<param name="width" type="text" default="380" label="Dialog width" description="The width of dialog"/>
+	</params>
+</install>

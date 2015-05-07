@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin"  group="system">
+	<name>System - OSE Secure</name>
+	<author>Open Source Excellence</author>
+	<creationDate>29-Jun-2011</creationDate>
+	<copyright>Copyright (C) 2008-2011 Open Source Excellence. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authoremail>info@opensource-excellence.com</authoremail>
+    <authorurl>http://www.opensource-excellence.com</authorurl>
+	<version>3.0.1</version>
+	<description>A Plugin that performs basic security checking for your Joomla! CMS created by Open Source Excellence</description>
+	<files>
+		<filename plugin="osesecure">osesecure.php</filename>
+	</files>
+		<config>
+	    <fields name="params">
+	    	<fieldset name="Basic">
+
+			<field name="enableSecureKey" type="radio" default="0" label="Basic Feature - Enable OSE Backend Secure Key" description="Enable OSE Backend Secure Key">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+			<field name="secureKey" type="textarea" default="oseSecure" label="Backend Access Secure Key " description="Backend Access Secure Key." rows="1" cols="40" />
+
+			<field name="redmenuid" type="sql" default="" label="Redirect URL " description="A URL that redirects users if they are non-members."  query="SELECT id AS value, CONCAT('[',id,'] ', title)  AS redmenuid FROM #__menu WHERE client_id = 0" />
+			<field name="redmessage" type="textarea" default="Bad Behaviour is found." label="Redirect Message " description="The message that you would like to show to the user who performed bad behaviour." rows="8" cols="40" />
+			<field name="sefroutemethod" type="radio" default="0" label="SEF Routing Method" description="Use default full URL or alias in JRoute function.">
+					<option value="0">Non-SEF</option>
+					<option value="1">Full URL</option>
+					<option value="2">Alias</option>
+			</field>
+
+			<field name="enableAntihacker" type="radio" default="0" label="Advanced Feature - Enable OSE Anti-hacker" description="Please note that you have to install the OSE Anti-Hacker Component to use this function. If you have activated OSE Anti-Hacker through .htacess or php.ini, please turn off this option.">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="checkMUA" type="radio" default="0" label="Basic Scanning - Checks Malicious User Agent" description="Basic Scanning - Checks Malicious User Agent">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="checkDOS" type="radio" default="0" label="Basic Scanning - Checks DoS Attacks" description="Basic Scanning - Checks DoS Attacks">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="checkDFI" type="radio" default="0" label="Basic Scanning - Direct File Inclusion" description="Basic Scanning - Checks Direct File Inclusion">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="checkRFI" type="radio" default="0" label="Basic Scanning - Checks Remote File Inclusion" description="Basic Scanning - Checks Remote File Inclusion">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="checkJSInjection" type="radio" default="0" label="Basic Scanning - Checks Javascript Injection" description="Basic Scanning - Checks Javascript Injection">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="checkSQLInjection" type="radio" default="0" label="Basic Scanning - Checks SQL Injection" description="Basic Scanning - Checks SQL Injection">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
+
+			<field name="whitelistvars" default="" type="textarea" cols="30" rows="10" label="Whitelist Variables" description="GET or POST variables that are whitelisted (new line separated)"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

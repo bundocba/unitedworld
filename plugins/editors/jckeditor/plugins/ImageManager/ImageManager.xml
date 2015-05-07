@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="ImageManager" method="upgrade">
+	<name>ImageManager</name>
+	<version>2.0</version>
+	<creationDate>Feb 2012</creationDate>
+	<author>WebxSolution Ltd</author>
+	<authorUrl>http://www.webxsolution.com</authorUrl>
+	<license>GNU/GPL</license>
+	<description>Image editing file manager 2.0</description>
+	<languages>
+	</languages>
+	<icon>icon.gif</icon>
+	<files>	
+	<filename>config.inc.php</filename>
+	<filename>editor.php</filename>
+	<filename>editorFrame.php</filename>
+	<filename>plugin.js</filename>
+	<filename>icon.gif</filename>
+	<filename>images.php</filename>
+	<filename>manager.php</filename>
+	<filename>newFolder.html</filename>
+	<filename>session.php</filename>
+	<filename>thumbs.php</filename>
+	<folder>assets</folder>
+	<folder>Classes</folder>
+	<folder>img</folder>
+	<folder>lang</folder>
+</files>
+<params>
+	<param name="demo" type="radio" default="0" label="Demo Mode" description="When true, no saving is allowed">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="safe_mode" type="radio" default="0" label="Safe Mode" description="If PHP on the web server is in safe mode, set this to true.
+         SAFE MODE restrictions: directory creation will not be possible,
+		 only the GD library can be used, other libraries require
+		 Safe Mode to be off.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="thumbnail_dir" type="text" default=".thumbs" label="Thumbnail Directory" description=" If you do not want to store thumbnails in a directory, set this
+  to false or empty string"/>
+	<param name="allow_new_dir" type="radio" default="1" label="Enable Folder Creation" description="Allow the user to create new sub-directories. If this equal true, this parameter
+       is ignored, you can not create directories ">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="allow_upload" type="radio" default="1" label="Enable Image Upload" description="Allow the user to upload files.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="allow_edit" type="radio" default="1" label="Enable Image Edit" description="Allow the user to edit images.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="allow_replace" type="radio" default="1" label="Enable Image Replace" description="Allow the replacement of the image with a newly uploaded image in the editor dialog.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="allow_delete" type="radio" default="0" label="Enable Image Delete" description="Allow the deletion of images">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="allow_newFileName" type="radio" default="0" label="Enable Image Rename" description="Allow the user to enter a new filename for saving the edited image.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>
+	<param name="allow_overwrite" type="radio" default="0" label="Enable Image Overiwrite" description="Overwrite file of entered filename, if file already exist. Only applies when the the user can enter a new filename.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+	</param>	
+</params>
+</install>

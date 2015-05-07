@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="codemirror" method="upgrade">
+	<version>1.2</version>
+	<creationDate>July 2012</creationDate>
+	<author>Marijn Haverbeke</author>
+	<copyright>Copyright (C) 2009 - 2011 Webxsolution</copyright>
+	<authorUrl>http://www.webxsolution.com</authorUrl>
+	<license>GNU/GPLv2</license>
+	<description>Integration by WebxSolution Ltd for the JCK Editor</description>
+	<languages>
+	</languages>
+	<files>	
+	<filename>plugin.js</filename>
+	<folder>css</folder>
+	<folder>js</folder>
+    </files>
+	<params group="options">
+			<param name="codemirrorLineNumbers" type="radio" default="0" label="Display Line Numbers" description="">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="codemirrorTextWrapping" type="radio" default="0" label="Text Wrapping" description="">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="codemirrorUndoDepth" type="text" default="50" label="Undo Depth" description=" The maxium number of undo's you are allowed "/>
+	</params>
+</install>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="responsiveimages" method="upgrade">
+	<version>0.1</version>
+	<creationDate>Feb 2013</creationDate>
+	<author>JommlaCK Team</author>
+	<authorUrl>http://www.joomlackeditor.com/</authorUrl>
+	<license>GNU/GPLv2</license>
+	<description>JCK Plugin that removes CSS Height and Width from Images created in  the editor</description>
+	<languages>
+	</languages>
+	<files>	
+	<filename>plugin.js</filename>
+    </files>
+</install>

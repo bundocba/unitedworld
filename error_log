@@ -1,0 +1,71 @@
+[14-Nov-2013 15:41:05 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/access/access.php on line 409
+[14-Nov-2013 15:41:09 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 15:41:09 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 15:47:01 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 15:47:44 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 15:47:44 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[14-Nov-2013 15:50:09 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 15:50:09 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 15:50:13 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[14-Nov-2013 15:59:58 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/database/database/mysql.php on line 383
+[14-Nov-2013 15:59:58 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/database/database/mysql.php on line 383
+[14-Nov-2013 15:59:58 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/components/com_content/models/articles.php on line 491
+[14-Nov-2013 15:59:58 Asia/Singapore] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/database/database/mysqli.php on line 263
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/database/database/mysqli.php on line 263
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/access/access.php on line 409
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/access/access.php on line 409
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 15:59:59 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/access/access.php on line 409
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/plugin/helper.php on line 59
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[14-Nov-2013 16:00:00 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[14-Nov-2013 16:00:01 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 16:00:01 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 16:00:01 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[14-Nov-2013 16:00:05 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/libraries/joomla/application/menu.php on line 63
+[14-Nov-2013 16:00:05 Asia/Singapore] PHP Warning:  Invalid argument supplied for foreach() in /home/futuresg/public_html/joomla-plus_site/includes/application.php on line 465
+[14-Nov-2013 16:00:05 Asia/Singapore] PHP Fatal error:  Call to a member function get() on a non-object in /home/futuresg/public_html/joomla-plus_site/templates/beez_20/error.php on line 10
+[07-Jul-2014 18:04:27 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:45 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:47 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:48 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:48 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:48 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:48 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:04:49 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:05:46 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:05:47 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:22 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:23 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:24 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:25 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:26 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:33 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:34 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:50 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:07:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:08:04 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:11:27 Asia/Singapore] PHP Parse error:  syntax error, unexpected T_ECHO, expecting T_FUNCTION in /home/futuresg/public_html/unitedworld_site/configuration.php on line 3
+[07-Jul-2014 18:12:17 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:12:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:12:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:13:12 Asia/Singapore] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/futuresg/public_html/unitedworld_site/index.php:7) in /home/futuresg/public_html/unitedworld_site/libraries/joomla/session/session.php on line 532
+[07-Jul-2014 18:13:12 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:13:39 Asia/Singapore] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/futuresg/public_html/unitedworld_site/index.php:7) in /home/futuresg/public_html/unitedworld_site/libraries/joomla/session/session.php on line 532
+[07-Jul-2014 18:13:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected '[' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 12
+[07-Jul-2014 18:15:12 Asia/Singapore] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/futuresg/public_html/unitedworld_site/index.php:7) in /home/futuresg/public_html/unitedworld_site/libraries/joomla/session/session.php on line 532
+[07-Jul-2014 18:17:21 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<' in /home/futuresg/public_html/unitedworld_site/templates/fwztemplate/html/mod_articles_latest/default.php on line 25

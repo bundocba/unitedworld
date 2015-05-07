@@ -1,0 +1,420 @@
+<?php
+if($_POST["pathFolder"]!=""){
+	print_r("
+<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
+<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">
+<head profile=\"http://selenium-ide.openqa.org/profiles/test-case\">
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
+<link rel=\"selenium.base\" href=\"".JURI::root()."\" />
+<title>Upload Files</title>
+</head>
+<body>
+<table cellpadding=\"1\" cellspacing=\"1\" border=\"1\">
+<thead>
+<tr><td rowspan=\"1\" colspan=\"3\">Upload Files</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>".JURI::root()."administrator/index.php?option=com_media&amp;folder=</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Media Manager</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.icon-32-options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>id=jform_upload_extensions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=jform_upload_extensions</td>
+	<td>bmp,csv,doc,gif,ico,jpg,jpeg,odg,odp,ods,odt,pdf,png,ppt,swf,txt,xcf,xls,BMP,CSV,DOC,GIF,ICO,JPG,JPEG,ODG,ODP,ODS,ODT,PDF,PNG,PPT,SWF,TXT,XCF,XLS,docx,DOCX,pptx,PPTX,xlsx,XLSX,mp3,MP3,mp4,MP4,zip,ZIP</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=foldername</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=thumbs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=foldername</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=foldername</td>
+	<td>aaaaaaaaaa_demo</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=dd.message.message &gt; ul &gt; li</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Create Complete: /aaaaaaaaaa_demo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>folderframe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Folder&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.doc</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.doc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.docx</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.docx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.xls</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.xls</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.xlsx</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.xlsx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.ppt</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.ppt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.pptx</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.pptx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>".$_POST["pathFolder"]."demo.pdf</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.pdf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>/Users/iker/Downloads/test/images/demo.gif</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.gif</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>/Users/iker/Downloads/test/images/demo.jpg</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>/Users/iker/Downloads/test/images/demo.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.png</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>/Users/iker/Downloads/test/media/demo.mp3</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.mp3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>/Users/iker/Downloads/test/media/demo.mp4</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.mp4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upload-file</td>
+	<td>/Users/iker/Downloads/test/other/demo.zip</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=upload-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Upload Complete: /aaaaaaaaaa_demo/demo.zip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeed</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeed</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][0]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][8]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][9]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][10]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][11]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][12]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>folderframe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;..&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeed</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeed</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.forms['mediamanager-form'].elements['rm[]'][0]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.icon-32-delete</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
+	");
+?>
+	<a href="javascript:window.location='index.php?option=com_fwchecker';">Back</a>
+<?php
+	die;
+}

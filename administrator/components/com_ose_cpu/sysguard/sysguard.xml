@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<code>OSE System Guard Code:20110220</code>
+	<classes>
+		<class path="" extend="antihacker">sysguard</class>
+	</classes>
+</document>

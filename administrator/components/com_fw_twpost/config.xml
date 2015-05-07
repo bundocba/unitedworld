@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="userconfig"
+		label="COM_CONTENT_CONFIG_USER"
+		description="COM_CONTENT_CONFIG_APP">
+		<field
+			name="consumer_key" 
+			type="input"
+			label="Consummer Key"
+			menuitems="true"
+			size="30"
+		/>
+		<field
+			name="consumer_secret" 
+			type="password"
+			label="Consummer Secrect"
+			menuitems="true"
+			size="80"
+		/>
+		<field
+			name="access_token" 
+			type="input"
+			label="Access token"
+			menuitems="true"
+			size="80"
+		/>
+		<field
+			name="access_token_secret" 
+			type="password"
+			label="Access token secret"
+			menuitems="true"
+			size="80"
+		/>
+	</fieldset>
+</config>

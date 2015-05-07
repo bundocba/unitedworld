@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="component" method="upgrade" version="2.5">
+	<name>COM_FW_TWPOST</name>
+	<author>ThaiManhHuy</author>
+	<creationDate>02/5/2013</creationDate>
+	<authorEmail>frank@futureworkz.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Futureworkz</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>Futureworkz Twitter Wall Post</description>
+	
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>views</folder>	
+		<filename>fw_twpost.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/install.sql</file>
+		</sql>	
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+		</sql>	
+	</uninstall>
+	
+	<administration>
+			<menu  link="option=com_fw_twpost&amp;view=articles">CONTENT_TWITTER_POST</menu>
+			<menu  link="option=com_fw_twpost&amp;view=k2articles">K2_TWITTER_POST</menu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>helpers</folder>		
+			<folder>models</folder>
+			<folder>languages</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>fw_twpost.php</filename>
+			<filename>index.html</filename>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">languages/en-GB/en-GB.com_fw_twpost.ini</language>
+			<language tag="en-GB">languages/en-GB/en-GB.com_fw_twpost.sys.ini</language>
+		</languages>						
+	</administration>
+
+</install>

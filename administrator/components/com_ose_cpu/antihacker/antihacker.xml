@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<code>OSE AntiHacker Code:20110220</code>
+	<classes>
+		<class path="" extend="test">antihacker</class>
+	</classes>
+</document>

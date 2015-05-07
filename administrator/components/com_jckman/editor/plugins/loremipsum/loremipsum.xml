@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="loremipsum" method="upgrade">
+    <name>LoremIpsum</name>
+	<version>1.0</version>
+	<creationDate>Oct2012</creationDate>
+	<author>Scsirke and the JoomlaCK Team</author>
+	<authorUrl>http://www.joomlackeditor.com</authorUrl>
+	<license>GNU/GPLv2</license>
+	<description>loremIpsum plugin for Joomla</description>
+	<languages>
+	</languages>
+	<icon>images/icon.png</icon>
+	<files>	
+	<filename>plugin.js</filename>
+	<filename>images/icon.png</filename>
+	<folder>images</folder>
+    </files>
+	
+	<params>
+		<param name="dialogtitle" type="text" default="LoremIpsum Properties" label="Dialog Title" description="loremIpsum" />
+		<param name="height" type="text" default="100" label="Dialog height" description="The height of dialog" />
+		<param name="width" type="text" default="400" label="Dialog width" description="The width of dialog"/>
+	</params>
+</install>

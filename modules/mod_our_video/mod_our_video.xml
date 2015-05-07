@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>mod_our_video</name>
+
+
+	<author>Joomla! Project</author>
+
+
+	<creationDate>July 2006</creationDate>
+
+
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights
+		reserved.
+	</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt
+	</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>2.5.0</version>
+	<description>mod_our_video_desc</description>
+	<files>
+		<filename module="mod_our_video">mod_our_video.php</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+		<filename>mod_our_video.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_our_video.ini</language>
+		<language tag="en-GB">en-GB.mod_our_video.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic"
+				addfieldpath="/administrator/components/com_fw_video/models/fields">
+				<field name="cat_id" type="selectcategory" label="Video Category"
+					description="Video Category" />
+				<field name="number_videos" type="text" label="Number of video"
+					description="Number of video" default="2" filter="integer" />
+				<field name="width" type="text"
+					label="Width (px)" description="Width of videos" />
+				<field name="height" type="text"
+					label="Height (px)" description="Height of videos" />	
+				<field name="moduleclass_sfx" type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
+
+

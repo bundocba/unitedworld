@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+			name="id"
+			type="hidden"
+			label="Id"
+		/>
+		
+		<field
+			name="ordering"
+			type="hidden"
+			label="Order"
+		/>
+		
+		<field
+			name="created"
+			type="hidden"
+			label="Created"
+		/>
+		
+		<field
+			name="cateid"
+			type="catelist"
+			label="Category"
+			description="Category"
+			class="inputbox"
+			required="true"
+		/>
+		
+		
+		<field
+			name="name"
+			type="text"
+			label="Name"
+			default=""
+			size="50"
+		/>
+			
+		<field
+			name="link"
+			type="text"
+			label="Link"
+			default=""
+			size="50"
+		/>
+			
+		<field
+			name="intro_image"
+			type="media"
+			label="Intro Image"
+			default=""
+			directory=""
+		/>
+			
+		<field
+			name="desctiption"
+			type="editor"
+			label="Desctiption"
+			default=""
+			filter="safehtml"
+		/>
+	<!-- 	
+		<field
+			name="source"
+			type="file"
+			label="Source"
+		/>
+			<field 
+				name="delete_source" 
+				type="checkbox" 
+				label="Delete File" 
+				value="1" 
+			/>
+	 -->		
+		
+		<field 
+			name="published" 
+			type="list" 
+			label="Published"
+			default="1"
+		>
+			<option value="1">Published</option>
+			<option value="0">UnPublished</option>
+		</field>
+	</fieldset>
+</form>

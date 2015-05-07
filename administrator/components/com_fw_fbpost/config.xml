@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="userconfig"
+		label="COM_CONTENT_CONFIG_USER"
+		description="COM_CONTENT_CONFIG_APP">
+		<field
+			name="app_id" 
+			type="input"
+			label="App id"
+			menuitems="true"
+			size="30"
+		/>
+		<field
+			name="app_secret" 
+			type="input"
+			label="App Secrect"
+			menuitems="true"
+			size="30"
+		/>
+	</fieldset>	<fieldset name="editinglayout" label="User_Token"				description="User_Token">				<field			name="user_token" 			type="input"			label="User Token"			menuitems="true"			size="80"		/>	</fieldset>	
+</config>

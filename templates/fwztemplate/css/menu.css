@@ -1,0 +1,229 @@
+#mainmenu{
+
+	float: left;
+
+	width: 100%;
+
+	margin: 25px 0 0;
+
+}
+
+#mainmenu li{
+
+	display: inline;
+
+}
+
+#mainmenu li a, #mainmenu li span{
+
+	font-size: 16px;
+
+	color: #197cc0;
+
+}
+
+#mainmenu ul > li.first{
+
+	padding-left: 0 !important;
+
+}
+
+#mainmenu ul > li{
+
+	background: url('../images/bg_mnu_li_1.png') no-repeat right center;
+
+	padding: 5px 15px !important;
+
+	position: relative;
+
+}
+
+#mainmenu > ul > li.last{
+
+	background: none;
+
+}
+
+#mainmenu > ul > li.active > a{
+
+	color: #c20002;
+
+}
+
+
+
+#mainmenu ul > li > ul {
+
+    display: none;
+
+    left: 0;
+
+    min-width: 275px;
+
+  
+
+    position: absolute;
+
+    top: 20px;
+
+	padding:16px 0;
+
+	background: url('../images/bg_mnu_arrow.png') no-repeat top 8px left 50px;
+	transition: all 0.5s ease;
+
+
+}
+
+#mainmenu ul > li:hover >ul{
+
+	display: block;
+
+}
+#mainmenu li{
+	margin-bottom:1px;
+}
+#mainmenu ul > li > ul >li{
+
+	display: block;
+
+    float: left;
+
+    padding: 0 !important;
+
+    position: relative;
+
+    width: 100%;
+
+	background: #ececec; 
+	background: -moz-linear-gradient(top,  #ececec 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ececec), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ececec 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ececec 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ececec 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ececec 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+	/* background: url('../images/bg_mnu_li.png') repeat-x; */
+
+}
+
+
+
+
+
+#mainmenu ul > li > ul > li >a{
+
+	color:#545454;
+
+	float: left;
+
+    line-height: 27px;
+
+    min-height: 27px;
+
+    padding: 0 0 0 21px;
+
+	background: url('../images/bg_mnu_li_2.png') 8px 12px no-repeat;
+
+}
+
+#mainmenu ul > li > ul > li.active >a, #mainmenu ul > li > ul > li:hover > a{
+
+	color: #197cc0;
+
+	text-decoration: underline;
+
+}
+
+#mainmenu ul > li > ul >li:hover > ul{
+
+	display: block;
+
+}
+
+
+
+#mainmenu ul > li > ul >li >ul{
+
+	display: none;
+
+    float: left;
+
+    padding: 0;
+
+    position: absolute;
+
+    top: 0;
+	left: 277px;
+
+    width: 100%;
+
+}
+
+#mainmenu ul > li > ul >li >ul>li{
+
+	display: block;
+
+    float: left;
+
+    min-height: 27px;
+
+    padding: 0;
+
+    position: relative;
+
+    width: 250px;
+
+}
+
+#mainmenu ul > li > ul >li > ul > li >a{
+
+	float: left;
+
+	padding:  0 0 0 30px;
+
+	background: url('../images/bg_mnu_li_2.png') 15px 12px no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

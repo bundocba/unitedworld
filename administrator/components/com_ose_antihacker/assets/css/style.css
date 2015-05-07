@@ -1,0 +1,168 @@
+#activation-codes {
+	background: #FFF none repeat scroll 0 0;
+	border: 1px solid #FFBFC0;
+	color: #f02222;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 98%;
+}
+
+#activation-codes #header {
+	color: #238DB4;
+	font-size: 13px;
+	padding-bottom: 5px;
+}
+
+#activation-codes .back,
+#activation-codes .front, 
+.ose-notice{
+    background-color: #fff0f0;
+    border: 1px solid #FFBFC0;
+    box-shadow: 1px 1px 0 #E6E6E6;
+    clear: both;
+    color: #444444;
+    
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	padding-left: 20px; 
+	margin-bottom: 10px;
+	text-align: left; 
+	border-radius: 5px; 
+	margin-top: 10px; 
+}
+
+
+.stat
+{
+	padding: 10px; 
+}
+
+.stat td
+{
+    border-bottom: 1px dotted #dedede; 
+    line-height: 30px;	
+}
+
+.stat .label
+{
+    font-weight: bold;
+    font-size: 12px;
+	font-family: arial,verdana,sans-serif;
+	color: #FFF; 
+	width: 85px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 2, 0.6);
+	background-color: #f95271; 
+	padding: 3px 5px 3px 5px;
+	border-radius: 3px;  
+}
+
+.stat .attackcontent
+{
+	text-indent: 10px; 
+	font-weight: bold;
+    font-size: 12px;
+	font-family: arial,verdana,sans-serif;
+	color: #5b5b5b;
+}
+
+.stat .attackcontent .parent
+{
+	text-indent: 10px; 
+}
+
+.stat .attackcontent .child
+{
+	margin: 5px;
+	border: 1px solid #fca0b2;
+	padding: 5px;  
+}
+
+#configuration
+{
+	padding: 40px 20px 20px 20px;	
+}
+
+#configuration .icon {
+	float: left;
+	height: 220px;
+	width: 220px;
+	padding-left: 25px; 
+}
+#configuration .icon span{
+	width: 100%;
+	float: left; 
+}
+
+#configuration a,
+#configuration a:link,
+#configuration a:visited
+{
+	color: #444444;
+	text-decoration: none; 
+	font-weight: normal; 
+}
+
+.x-form-cb-label {
+	margin-left: 4px;
+	position: relative;
+	top: 2px;
+	width: 60px;
+}
+
+.x-html-editor-wrap {
+	margin-left: 305px;
+}
+
+#threshold {
+	margin-left: 5px;
+}
+
+.x-form-label-top .x-form-element {
+	padding-top: 0px;
+}
+
+
+.x-form-element {
+	float: none; 
+}
+
+#scanconf .x-form-element,
+#seoconf .x-form-element {
+	float: left; 
+}
+
+#seoconf .x-form-label-top .x-form-item label.x-form-item-label {
+	width: auto;
+	float: left;
+}
+
+#activationTesting,#HTPasswordCreation {
+	width: 100%;
+	float: left;
+}
+
+#oseATHConfig-panel fieldset input,#oseATHConfig-panel fieldset textarea,#oseATHConfig-panel fieldset select,#oseATHConfig-panel fieldset img,#oseATHConfig-panel fieldset button
+	{
+	float: left;
+	margin: 0px 0px 0px 1px;
+	width: 17px;
+}
+
+#oseATHConfig-panel .x-form-check-wrap {
+	line-height: 16px;
+}
+
+#oseATHConfig-panel .x-form-label-top .x-form-element {
+	margin-top: 5px;
+}
+
+.x-form-label-top .x-form-item label.x-form-item-label {
+    clear: none;
+    display: inline;
+    float: left;
+    margin-bottom: 0px;
+    position: static;
+    min-width: 225px;
+}

@@ -1,0 +1,196 @@
+[22-Jan-2013 07:43:59 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/view.raw.php on line 3
+[22-Jan-2013 07:44:31 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/view.raw.php on line 3
+[22-Jan-2013 07:45:40 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/view.raw.php on line 3
+[22-Jan-2013 07:48:03 UTC] PHP Warning:  require_once(JPATH_ROOTDScomponentsDScom_fw_fbpostDShelpersDSfacebookDSindex.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:48:03 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'JPATH_ROOTDScomponentsDScom_fw_fbpostDShelpersDSfacebookDSindex.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:48:10 UTC] PHP Warning:  require_once(JPATH_ROOTDScomponentsDScom_fw_fbpostDShelpersDSfacebookDSindex.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:48:10 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'JPATH_ROOTDScomponentsDScom_fw_fbpostDShelpersDSfacebookDSindex.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:49:58 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:50:05 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:50:58 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:51:28 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:52:28 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 07:58:26 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[22-Jan-2013 08:02:12 UTC] PHP Fatal error:  Call to undefined function jimport() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 2
+[23-Jan-2013 02:02:33 UTC] Bad Signed JSON signature!
+[23-Jan-2013 02:02:33 UTC] Bad Signed JSON signature!
+[23-Jan-2013 02:21:49 UTC] Bad Signed JSON signature!
+[23-Jan-2013 02:21:50 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:22:15 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:23:26 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:23:30 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:23:32 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:23:57 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:26:01 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:26:59 UTC] PHP Fatal error:  Uncaught OAuthException: Invalid OAuth access token signature.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:27:41 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:27:44 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:27:46 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:27:54 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:28:02 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:28:44 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:29:27 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:29:31 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:31:11 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating application. Cannot get application info due to a system error.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:33:27 UTC] PHP Fatal error:  Uncaught OAuthException: Error validating access token: The session is invalid because the user logged out.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:33:47 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:34:48 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:35:02 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:35:16 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:36:14 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:39:58 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:40:44 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:40:45 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:40:46 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:40:46 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:40:46 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:40:47 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:00 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:01 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:01 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:01 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:02 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:04 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:05 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:41:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 02:42:48 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 02:44:37 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 03:06:12 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:14 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:15 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:47 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:48 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:49 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:50 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:50 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:52 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:52 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:06:53 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:13 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:15 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:15 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:16 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:16 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:16 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:16 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:20 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:21 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 03:07:21 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 5
+[23-Jan-2013 04:37:12 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 33
+[23-Jan-2013 04:37:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 33
+[23-Jan-2013 07:18:10 UTC] PHP Parse error:  syntax error, unexpected T_DNUMBER in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 17
+[23-Jan-2013 07:20:22 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 07:20:23 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 07:20:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 07:50:24 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:50:26 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:50:43 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:50:44 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:50:45 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:51:11 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:51:12 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:51:47 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:51:48 UTC] PHP Fatal error:  Call to protected method BaseFacebook::getUserFromAccessToken() from context '' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:52:58 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 9
+[23-Jan-2013 07:54:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 9
+[23-Jan-2013 07:54:36 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 9
+[23-Jan-2013 07:54:49 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 07:54:52 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 07:55:09 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 07:55:10 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 07:55:13 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 07:58:10 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 07:58:11 UTC] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 08:06:39 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 08:06:40 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 08:06:53 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 08:06:55 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 08:07:07 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 08:15:19 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 08:15:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 8
+[23-Jan-2013 09:33:19 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 10
+[23-Jan-2013 09:33:20 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 10
+[23-Jan-2013 09:33:35 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 09:33:37 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 09:34:03 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 09:36:03 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 09:36:26 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:36:29 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:36:30 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:06 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/helpers/facebook/base_facebook.php on line 1254
+[23-Jan-2013 09:37:26 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:27 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:27 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:28 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:28 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:28 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:29 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:31 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:32 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:33 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:33 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:34 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:34 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:34 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 16
+[23-Jan-2013 09:37:44 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 13
+[23-Jan-2013 09:37:45 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 13
+[23-Jan-2013 09:37:45 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 13
+[23-Jan-2013 10:34:58 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:34:58 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:34:58 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:34:59 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:11 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:13 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:31 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:31 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:31 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:32 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:32 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:32 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:32 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[23-Jan-2013 10:35:32 UTC] PHP Fatal error:  Call to undefined method Facebook::getAssetToken() in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 7
+[24-Jan-2013 01:54:58 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 22
+[24-Jan-2013 01:55:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 22
+[24-Jan-2013 08:59:22 UTC] PHP Fatal error:  Call to a member function api() on a non-object in /home/futuresg/public_html/rookie_site/fb_wall_post/components/com_fw_fbpost/views/post/index.php on line 12

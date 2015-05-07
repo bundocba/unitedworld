@@ -1,0 +1,17 @@
+#wrapper-content{
+
+	width:100%;
+
+	height:auto;
+
+	margin:0;
+
+	padding:0;
+
+	float:left;	
+
+}
+.latest_wrap .intro{
+	width: 100px !important;
+	height: auto;
+}

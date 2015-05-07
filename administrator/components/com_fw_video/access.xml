@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_pp">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+	</section>
+
+	<section name='currency'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='city'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='country'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='car'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='carBrand'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='carCategory'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='carSchool'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='package'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='packageCar'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+	<section name='price'>
+		<action name='core.admin' title='JACTION_ADMIN' description='JACTION_ADMIN_COMPONENT_DESC' />
+		<action name='core.manage' title='JACTION_MANAGE' description='JACTION_MANAGE_COMPONENT_DESC' />
+		<action name='core.create' title='JACTION_CREATE' description='JACTION_CREATE_COMPONENT_DESC' />
+		<action name='core.delete' title='JACTION_DELETE' description='JACTION_DELETE_COMPONENT_DESC' />
+		<action name='core.edit' title='JACTION_EDIT' description='JACTION_EDIT_COMPONENT_DESC' />
+	</section>
+</access>

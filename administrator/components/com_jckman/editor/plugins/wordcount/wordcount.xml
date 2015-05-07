@@ -1,0 +1,17 @@
+<?xml version="1.1"?>
+<install version="1.5" type="plugin" plugin="wordcount" method="upgrade">
+	<version>1.0</version>
+	<creationDate>Nov2010</creationDate>
+	<author>Webxsolution Ltd</author>
+	<copyright>Copyright (C) 2009 - 2012 Webxsolution</copyright>
+	<authorUrl>http://www.webxsolution.com</authorUrl>
+	<license>GPLv2</license>
+	<description>JCK WordCount for the JCK Editor</description>
+	<languages>
+	</languages>
+	<files>	
+	<filename>plugin.js</filename>
+	<filename>index.html</filename>
+    </files>
+
+</install>

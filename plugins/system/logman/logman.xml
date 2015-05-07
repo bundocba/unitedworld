@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade" overwrite="true">
+	<identifier>plg:system.logman</identifier>
+    <name>System - LOGman</name>
+ 	<author>Joomlatools</author>
+    <creationDate>May 2012</creationDate>
+    <copyright>Copyright (C) 2012 Timble CVBA</copyright>
+    <license>GNU GPLv3 - http://www.gnu.org/licenses/gpl.html</license>
+    <authorEmail>info@joomlatools.eu</authorEmail>
+    <authorUrl>www.joomlatools.com</authorUrl>
+	<version>1.0.0RC3</version>
+	<description>Handles logging of various events</description>
+
+    <files>
+        <filename plugin="logman">logman.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <params />
+
+	<config>
+        <fields name="params" />
+    </config>
+</install>

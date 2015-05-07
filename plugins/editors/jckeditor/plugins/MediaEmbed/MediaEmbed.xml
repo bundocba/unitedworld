@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" plugin="MediaEmbed" method="upgrade">
+	<name>MediaEmbed</name>
+	<version>1.1</version>
+	<creationDate>DEC 2011</creationDate>
+	<author>fluidbyte.net</author>
+	<copyright>Copyright (C) 2010 fluidbyte</copyright>
+	<authorUrl>http://www.fluidbyte.net/</authorUrl>
+	<license>GNU/GPLv2</license>
+	<description>Converted by WebxSolution Ltd to work with the JCK Editor</description>
+	<languages>
+	</languages>
+	<icon>images/icon.png</icon>
+	<files>	
+	<filename>plugin.js</filename>
+	<folder>dialogs</folder>
+	<folder>images</folder>
+    </files>
+</install>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="component" method="upgrade" version="2.5">
+	<name>COM_FW_FBPOST</name>
+	<author>ThaiManhHuy</author>
+	<creationDate>01/28/2012</creationDate>
+	<authorEmail>huythaimanh@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Futureworkz</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>Futureworkz Facebook Wall Feed</description>
+	
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>views</folder>	
+		<filename>fw_fbpost.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/install.sql</file>
+		</sql>	
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+		</sql>	
+	</uninstall>
+	
+	<administration>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>helpers</folder>		
+			<folder>models</folder>
+			<folder>languages</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>fw_fbpost.php</filename>
+			<filename>index.html</filename>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">languages/en-GB/en-GB.com_fw_fbpost.ini</language>
+			<language tag="en-GB">languages/en-GB/en-GB.com_fw_fbpost.sys.ini</language>
+		</languages>						
+	</administration>
+
+</install>

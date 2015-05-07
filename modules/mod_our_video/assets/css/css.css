@@ -1,0 +1,19 @@
+#video_wrap{
+	float: left;
+	width: 100%;
+}
+#video_wrap .video{
+	border-bottom: 1px dashed #313131;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#video_wrap .video a.video_name{
+	font-weight: bold;
+	color: #197cc0;
+}
+#video_wrap .no_border{
+	border: none;
+	margin-bottom: 10px;
+    padding-bottom: 10px;
+}

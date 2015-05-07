@@ -1,0 +1,130 @@
+#component_area .item-page{
+
+	float: left;
+
+	width: 100%;
+
+	min-height: 400px;
+
+}
+
+#component_area .item-page >h1, #component_area .item-page >h2, #component_area .item-page >h3{
+
+	margin: 20px 0;
+
+}
+
+#component_area .item-page table{
+
+	margin-bottom: 10px;
+
+}
+
+#component_area .item-page th{
+
+	background: #197cc0;
+
+	color: #FFFFFF;
+
+	min-height: 30px;
+
+	line-height: 30px;
+
+}
+
+#component_area .item-page td,th{
+
+	border: 1px dotted #313131;
+
+}
+
+#component_area .item-page td{
+
+	padding: 10px;
+
+}
+
+#component_area .item-page .menu {
+
+	margin-left: 17px;
+	width: 400px;
+
+}
+
+#component_area .item-page .menu li{
+
+	list-style: decimal;
+	margin-right: 20px;
+	padding: 5px 10px;
+
+}
+
+#component_area .item-page  .nn_tabs_container{
+
+	position: relative;
+
+	top: -19px;
+
+}
+
+#component_area  .category-list{
+
+	float: left;
+
+	width: 100%;
+
+	padding: 10px 0;
+
+	min-height: 250px;
+
+}
+
+#component_area  .category-list .cat-items{
+
+	padding: 10px 0;
+
+}
+
+#component_area  .category-list .cat-items  .list-title{
+
+	padding: 5px 0;
+
+}
+
+#component_area .blog{
+
+	margin: 20px 0;
+
+	float: left;
+
+	width: 100%
+
+}
+
+#component_area .blog .items-leading{
+
+	float: left;
+
+	width: 100%;
+
+	margin: 20px 0 0;
+
+}
+#component_area .item-page table.forms th{
+	background:none;
+	border:none;
+	color:#313131;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

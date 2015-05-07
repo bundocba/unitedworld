@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5" method="upgrade">
+<name>rsinstaller</name>
+<author>RSJoomla</author>
+<creationDate>04/06/2009</creationDate>
+<copyright>(C) 2007-2010 www.rsjoomla.com</copyright>
+<authorEmail>support@rsjoomla.com</authorEmail>
+<authorUrl>www.rsjoomla.com</authorUrl>
+<version>1.3.0</version>
+<description><![CDATA[RSForm!Pro - reCAPTCHA plugin allows you to add reCAPTCHA validation to your form. Works with at least RSForm! Pro 1.3.0 REV30!]]></description>
+	<install>
+		<sql>
+			<file driver="mysql">install.mysql.rsfprecaptcha.sql</file>
+			<file driver="mysql" charset="utf8">install.mysql.rsfprecaptcha.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql">uninstall.mysql.rsfprecaptcha.sql</file>
+			<file driver="mysql" charset="utf8">uninstall.mysql.rsfprecaptcha.sql</file>
+		</sql>
+	</uninstall>
+	<scriptfile>script.rsinstaller.php</scriptfile>
+	<installfile>install.rsinstaller.php</installfile>
+	<administration>
+		<files folder="admin">
+			<filename>install.mysql.rsfprecaptcha.sql</filename>
+			<filename>uninstall.mysql.rsfprecaptcha.sql</filename>
+		</files>
+	</administration>
+</install>
